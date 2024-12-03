@@ -1,4 +1,6 @@
-<h1 align="Left">Football Player Performance Analysis</h1>
+<h1 align="Left">Análisis del Rendimiento de Jugadores de Fútbol
+
+</h1>
 <p align="left">
   <img src="https://img.shields.io/badge/Language-R-blue" alt="Language">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
@@ -7,36 +9,51 @@
  
 </p>
 
-# Overview
-This repository contains R code for analyzing the performance of football players over time. It utilizes data from Fbref.com to track the evolution of goals and assists per 90 minutes for select players from the 2000-2024 seasons. The analysis includes visualizations to illustrate the trends in player performance.
+En este repositorio comparto el código en R que he desarrollado para analizar el rendimiento de jugadores de fútbol a lo largo del tiempo. Utilizo datos de Fbref.com para rastrear la evolución de goles y asistencias por cada 90 minutos en jugadores seleccionados durante las temporadas de 2000 a 2024. Además, incluyo visualizaciones que muestran claramente las tendencias en el desempeño de estos jugadores.
 
-# Data
-The data used in this analysis is sourced from Fbref.com, a comprehensive football statistics website. The dataset includes advanced season statistics for players from the top five European leagues (Big Five) from 2000 to 2024. Relevant metrics such as goals per 90 minutes (Gls_Per), assists per 90 minutes (Ast_Per), expected goals per 90 minutes (xG_Per), and expected assists per 90 minutes (xAG_Per) are considered.
+## Datos
+Los datos de este análisis provienen de Fbref.com, una plataforma completa de estadísticas de fútbol. El conjunto de datos abarca estadísticas avanzadas de temporada para jugadores de las cinco principales ligas europeas (Big Five), desde 2000 hasta 2024.
 
-# Analysis
-The R code provided in this repository conducts the following analyses:
+Métricas Clave Analizadas
 
-**1.Evolution of goals and assists per 90 minutes:** Visualizes the evolution of goals and assists per 90 minutes over the seasons for the selected players.
+**Goles por cada 90 minutos** (Gls_Per)
+Proporciona un indicador claro de la capacidad goleadora de un jugador.
+
+**Asistencias por cada 90 minutos** (Ast_Per)
+Mide la contribución del jugador en generar oportunidades de gol para sus compañeros.
+
+**Goles esperados por cada 90 minutos** (xG_Per)
+Una métrica avanzada que evalúa la calidad de las oportunidades de gol creadas.
+
+**Asistencias esperadas por cada 90 minutos** (xAG_Per)
+Estima la probabilidad de que las acciones de un jugador se conviertan en asistencias.
+
+Alcance del Análisis
+
+Este estudio se centra en los jugadores de las siguientes ligas:
+
+Premier League (Inglaterra)
+La Liga (España)
+Serie A (Italia)
+Bundesliga (Alemania)
+Ligue 1 (Francia)
+
+## Análisis de los jugadores
+
+
+**1. Evolución de goles y asistencias por cada 90 minutos:** Visualiza la evolución de los goles y asistencias por cada 90 minutos a lo largo de las temporadas para los jugadores seleccionados.
 
 ![1](https://github.com/BORJAMOME/Top_goals_scorer/assets/19588053/61eee283-001c-40f2-8b06-d85dac080d18)
 
-**2.Percentile of goals and assists per 90 minutes:** Examines the percentile ranks of goals and assists per 90 minutes to identify player performance relative to their peers.
+**2. Percentil de goles y asistencias por cada 90 minutos:** Examina los percentiles de goles y asistencias por cada 90 minutos para identificar el rendimiento de los jugadores en relación con sus compañeros.
 
 ![2](https://github.com/BORJAMOME/Top_goals_scorer/assets/19588053/fdc4433c-43cd-47f2-957b-0c467d33dac6)
 
-**3.Expected Goals and Assists per 90 minutes each season:** Analyzes the expected goals and assists per 90 minutes for each season, providing insights into player performance beyond actual statistics.
+**3. Goles y asistencias esperados por cada 90 minutos en cada temporada:** Analiza los goles y asistencias esperados por cada 90 minutos para cada temporada, proporcionando información sobre el rendimiento del jugador más allá de las estadísticas reales.
+
 
 ![3](https://github.com/BORJAMOME/Top_goals_scorer/assets/19588053/3f61fe72-b470-4184-9167-72a1dc60769b)
 
-**4.Expected goals and goals scored per 90 minutes each season:** Compares expected goals with actual goals scored per 90 minutes to evaluate player effectiveness.
+**4. Goles esperados y goles marcados por cada 90 minutos en cada temporada:** Compara los goles esperados con los goles reales marcados por cada 90 minutos para evaluar la efectividad del jugador.
 
 ![4](https://github.com/BORJAMOME/Top_goals_scorer/assets/19588053/8b40d4b1-1680-422f-820e-ca0b7c78856e)
-
-# Dependencies
-The R code relies on several R packages, including CDR, tidyverse, janitor, ggbeeswarm, here, patchwork, ggtext, ggrepel, worldfootballR, and showtext. Ensure these packages are installed before running the code.
-
-
-
-# Author
-This project is maintained by Borja Mora.
-
